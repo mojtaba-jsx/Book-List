@@ -1,3 +1,8 @@
 body{
-    background-color: #474F7A;
+    background-color: #39A7FF;
+}
+
+.book-list{
+    display: flex;
+    flex-wrap: wrap;
 }
