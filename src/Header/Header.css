@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url('../fonts/IranNastaliq.ttf');
+}
+
+.header__wrapper{
+    display: block;
+    margin: 0 auto;
+    /* background-color: red; */
+    width: 20rem;
+    text-align: center;
+    font-family: 'IranNastaliq', Courier, monospace;
+    font-size: 2.5rem;
+}
+
+.logo svg {
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    margin:  0 auto;
+}

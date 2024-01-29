@@ -4,6 +4,11 @@
 }
 .book{
     margin-top: 2rem;
+    transition: all 140ms ease-in;
+}
+.book:hover{
+    transform: scale(1.04);
+    cursor: pointer;
 }
 
 .book{

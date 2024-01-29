@@ -9,14 +9,16 @@ class App extends Component {
       <div>
         <Header />
         <AddForm />
-        <div className="book-list">
-          <Book />
-          <Book />
-          <Book />
-          <Book />
-          <Book />
-          <Book />
-          <Book />
+        <div className="container">
+          <div className="book-list">
+            <Book />
+            <Book />
+            <Book />
+            <Book />
+            <Book />
+            <Book />
+            <Book />
+          </div>
         </div>
       </div>
     );
