@@ -42,9 +42,9 @@ class Book extends Component {
           />
         </svg>
 
-        <span className="book-name">شاهنامه</span>
-        <span className="book-author">فردوسی</span>
-        <span className="book-year">800</span>
+        <span className="book-name">{this.props.title}</span>
+        <span className="book-author">{this.props.author}</span>
+        <span className="book-year">{this.props.year}</span>
       </div>
     );
   }

@@ -5,7 +5,7 @@ class AddForm extends Component {
   constructor() {
     super();
     this.state = {
-      books: [1,2],
+      books: [],
       title: "",
       author: "",
       year: "",
@@ -41,6 +41,25 @@ class AddForm extends Component {
 
   submitHandler(event){
     event.preventDefault()
+
+    let{title,author,year} = {...this.state}
+    if(title && author && year){
+      let newBook ={
+        id:this.state.books.length+1,
+        title,
+        author,
+        year,
+      }
+      this.setState({
+        books:[...this.state.books,newBook]
+      })
+      
+      this.setState({
+        title:'',
+        author:'',
+        year:''
+      })
+    }
   }
 
   render() {
@@ -70,7 +89,7 @@ class AddForm extends Component {
         <div className="book-list">
           {
             this.state.books.map((book)=>(
-              <Book title={book.title} author={book.author} year={book.year} />
+              <Book {...book} key={book.id}/>
             ))
           }
         </div>

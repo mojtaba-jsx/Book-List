@@ -8,9 +8,6 @@ class App extends Component {
       <div>
         <Header />
         <AddForm />
-        <div className="container">
-
-        </div>
       </div>
     );
   }
