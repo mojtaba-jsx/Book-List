@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mojtaba-jsx/Book-List/static/css/main.9429baf0.css",
+    "main.js": "/mojtaba-jsx/Book-List/static/js/main.2578d9d1.js",
+    "static/media/IranNastaliq.ttf": "/mojtaba-jsx/Book-List/static/media/IranNastaliq.32e9d4e99ce672ff198a.ttf",
+    "static/media/Poppins-Bold.ttf": "/mojtaba-jsx/Book-List/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "index.html": "/mojtaba-jsx/Book-List/index.html",
+    "main.9429baf0.css.map": "/mojtaba-jsx/Book-List/static/css/main.9429baf0.css.map",
+    "main.2578d9d1.js.map": "/mojtaba-jsx/Book-List/static/js/main.2578d9d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9429baf0.css",
+    "static/js/main.2578d9d1.js"
+  ]
+}
